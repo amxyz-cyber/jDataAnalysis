@@ -1,0 +1,4 @@
+"server","compiler","threads","cpu","manufacturer","frequency","cores","throughput","cpu_load","ram"
+"Haskell-server","ghc-9.6.3",2,"I7-870","Intel",2934,8,1.35000,0.70500,16768
+"Java-Server","Openjdk-20.0.2",8,"I7-870","Intel",2934,8,1.55000,0.42800,251658
+"Python-Server","Python-3.12.1",1,"I7-870","Intel",2934,8,0.61000,0.31700,27336

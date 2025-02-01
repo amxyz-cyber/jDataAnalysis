@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'Bebas Regular';
+    /*src: url("../../../resources/Bebas-Regular.ttf");*/
+    /*charts-animated/target/classes/animatedCharts/view/ */
+    src: url("../../../../src/main/resources/Bebas-Regular.ttf");
+}
+
+
+@font-face {
+	font-family: 'Roboto Regular';
+    src: url("../../../../src/main/resources/Roboto-Regular.ttf");
+}
+
+.root
+	{
+		myDarkGray:  #352e2f;
+		myWhite: whitesmoke;
+		myDarkOrange: #90390c;
+		myDarkRed: #500909;
+		color0: #660707;
+		color1: #1f2d56;
+		color2: #4c6644;
+		color3: #28471f;
+		color4: #b86d28;
+		color5: #54aabc;
+		color6: #a9cc47;
+		color7: #b78aad; 
+		color00: #66070744;
+		color01: #1f2d5644;
+		color02: #4c664444;
+		color03: #28471f44;
+		color04: #b86d2844;
+		color05: #54aabc44;
+		color06: #a9cc4744;
+		color07: #b78aad44; 
+		-fx-font-size: 14pt;
+		/*-fx-background-color: myDarkGray;*/
+		-fx-font-family: 'Roboto Regular';
+		-fx-border-width: 2;
+}
+
+.default-color0.chart-pie { -fx-pie-color: color0; }
+.default-color1.chart-pie { -fx-pie-color: color1; }
+.default-color2.chart-pie { -fx-pie-color: color2; }
+.default-color3.chart-pie { -fx-pie-color: color3; }
+.default-color4.chart-pie { -fx-pie-color: color4; }
+.default-color5.chart-pie { -fx-pie-color: color5; }
+.default-color6.chart-pie { -fx-pie-color: color6; }
+.default-color7.chart-pie { -fx-pie-color: color7; }
+
+.default-color0.chart-bar { -fx-bar-fill: color0; }
+.default-color1.chart-bar { -fx-bar-fill: color1; }
+.default-color2.chart-bar { -fx-bar-fill: color2; }
+.default-color3.chart-bar { -fx-bar-fill: color3; }
+.default-color4.chart-bar { -fx-bar-fill: color4; }
+.default-color5.chart-bar { -fx-bar-fill: color5; }
+.default-color6.chart-bar { -fx-bar-fill: color6; }
+.default-color7.chart-bar { -fx-bar-fill: color7; }
+
+.default-color0.chart-area-symbol { -fx-background-color: color0, myWhite; }
+.default-color1.chart-area-symbol { -fx-background-color: color1, myWhite; }
+.default-color2.chart-area-symbol { -fx-background-color: color2, myWhite; }
+.default-color3.chart-area-symbol { -fx-background-color: color3, myWhite; }
+.default-color4.chart-area-symbol { -fx-background-color: color4, myWhite; }
+.default-color5.chart-area-symbol { -fx-background-color: color5, myWhite; }
+.default-color6.chart-area-symbol { -fx-background-color: color6, myWhite; }
+.default-color7.chart-area-symbol { -fx-background-color: color7, myWhite; }
+.chart-series-area-line {
+    -fx-stroke: #f9d900;
+    -fx-stroke-width: 1px;
+}
+
+.default-color0.chart-series-area-line { -fx-stroke: color0; }
+.default-color1.chart-series-area-line { -fx-stroke: color1; }
+.default-color2.chart-series-area-line { -fx-stroke: color2; }
+.default-color3.chart-series-area-line { -fx-stroke: color3; }
+.default-color4.chart-series-area-line { -fx-stroke: color4; }
+.default-color5.chart-series-area-line { -fx-stroke: color5; }
+.default-color6.chart-series-area-line { -fx-stroke: color6; }
+.default-color7.chart-series-area-line { -fx-stroke: color7; }
+.chart-series-area-fill {
+    -fx-stroke: null;
+    -fx-fill: #f9d90044;
+}
+.default-color0.chart-series-area-fill { -fx-fill: color00; }
+.default-color1.chart-series-area-fill { -fx-fill: color01; }
+.default-color2.chart-series-area-fill { -fx-fill: color02; }
+.default-color3.chart-series-area-fill { -fx-fill: color03; }
+.default-color4.chart-series-area-fill { -fx-fill: color04; }
+.default-color5.chart-series-area-fill { -fx-fill: color05; }
+.default-color6.chart-series-area-fill { -fx-fill: color06; }
+.default-color7.chart-series-area-fill { -fx-fill: color07; }
+.area-legend-symbol {
+    -fx-padding: 6px;
+    -fx-background-radius: 6px; /* makes sure this remains circular */
+    -fx-background-insets: 0, 3;
+}
+
+/*
+ * Pie Chart 
+ */ 
+.chart-pie-label-line {
+    -fx-stroke: myDarkGray;
+    -fx-fill: myDarkGray;
+}
+ 
+.chart-pie-label {
+    -fx-fill: gray;
+    -fx-font-size: 1em;
+} 
+
+/*
+* Line .chart
+*/
+.chart-series-line {    
+    -fx-stroke-width: 2px;
+    -fx-effect: null;
+}
+ 
+.default-color0.chart-series-line { -fx-stroke: color0; }
+.default-color1.chart-series-line { -fx-stroke: color1; }
+.default-color2.chart-series-line { -fx-stroke: color2; }
+.default-color3.chart-series-line { -fx-stroke: color3; }
+.default-color4.chart-series-line { -fx-stroke: color4; }
+.default-color5.chart-series-line { -fx-stroke: color5; }
+.default-color6.chart-series-line { -fx-stroke: color6; }
+.default-color7.chart-series-line { -fx-stroke: color7; }
+
+.default-color0.chart-line-symbol { -fx-background-color: color0, myWhite; }
+.default-color1.chart-line-symbol { -fx-background-color: color1, myWhite; }
+.default-color2.chart-line-symbol { -fx-background-color: color2, myWhite; }
+.default-color3.chart-line-symbol { -fx-background-color: color3, myWhite; }
+.default-color4.chart-line-symbol { -fx-background-color: color4, myWhite; }
+.default-color5.chart-line-symbol { -fx-background-color: color5, myWhite; }
+.default-color6.chart-line-symbol { -fx-background-color: color6, myWhite; }
+.default-color7.chart-line-symbol { -fx-background-color: color7, myWhite; }
+
+
+.chart-content {
+    -fx-padding: 30px;    
+}
+ 
+.chart-title {
+  -fx-text-fill: myDarkGray;
+  -fx-font-size: 1.6em;
+  -fx-font-family: 'Bebas Regular';
+  -fx-border-color: myDarkGray;
+  -fx-border-width: 1;
+}
+
+.chart-label {
+  -fx-font-size: 1.6em;
+  -fx-font-family: 'Bebas Regular';
+ }
+
+.charts-tooltip {
+    -fx-background-color: white;
+}
+.charts-tooltip .label {
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+    -fx-font-family: 'Helvetica', Arial, sans-serif;
+}
+ 
+.axis-label {
+  -fx-text-fill: #4682b4;
+}
+
+.axis {
+    -fx-font-size: 1.4em;    
+    -fx-tick-label-fill: darkolivegreen;
+    -fx-font-family: 'Roboto Regular';
+    -fx-tick-length: 20;
+    -fx-minor-tick-length: 10;
+}
+ 
+.chart-legend {
+   -fx-background-color:  transparent;
+   -fx-padding: 20px;
+   -fx-font-family: 'Bebas Regular';
+   -fx-text-fill: myDarkGray;
+   -fx-border-color: myDarkGray;
+  -fx-border-width: 1;
+}
+ 
+.chart-legend-item-symbol{
+   -fx-background-radius: 0;
+}
+ 
+.chart-legend-item{
+    -fx-text-fill: #191970;
+}
+ 
+.chart-plot-background {
+    -fx-background-color: #e2ecfe;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: #3278fa;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: #3278fa;
+}
+.chart-alternative-row-fill {
+    -fx-fill: #99bcfd;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}
+
