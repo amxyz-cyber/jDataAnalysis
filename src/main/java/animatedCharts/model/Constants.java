@@ -13,7 +13,7 @@ public class Constants {
 	public static final String CSV_REVENUES = "revenues-2023.csv";
 	public static final String CSV_AREA_CHART = "durchschnittssaldo2.csv";
 	public static final String CSV_SCATTER_CHART = "winequality-red.csv";
-	public static final String CSV_BIKE_SHARING = "/home/angela/Code/Java-Sandbox/charts-animated/2017-2019_fordgobike_tripdata.csv";
+	public static final String CSV_BIKE_SHARING = "2017-2019_fordgobike_tripdata.csv";
 	public static final String CSV_CARNOT_PROCESS = "carnot-process.csv";
 	public static final String CSV_STERLING_PROCESS = "sterling-process.csv";
 	public static final String CSV_SERVER_TESTS = "servertests.csv";
