@@ -78,7 +78,7 @@ The animated area chart relies on the dataset `durchschnittssaldo2.csv` which co
 - Controller: `AreaVC`, View: `AreaView`
 
 4. Scatter Plot\
-The animated scatter plot is based on the [red wine dataset] (https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009). 
+The animated scatter plot is based on the [red wine dataset](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009). 
 After having stored the data in `winequality-red.csv`, the plot is finally plotted using the classes ScatterVC and ScatterView respectively.
 
 5. Heatmap\
