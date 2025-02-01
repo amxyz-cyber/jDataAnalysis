@@ -50,7 +50,7 @@ public class App extends Application {
 	public void start(Stage primaryStage) {
 	   Model data = new Model(primaryStage,"My animated charts!");
 	   boolean isSetup1 = false;
-	   testPiechart(data);
+	   //testPiechart(data);
 	   //testBarchart(data);
 	   //testAreachart(data);
 	   //testScatterchart(data);
@@ -61,7 +61,7 @@ public class App extends Application {
 	   // Han Solo Library
 	   //testGrid(data);
 	   //testCoxCom(data);
-	   //testTitration(data);
+	   testTitration(data);
 	   //testBalances(data);
 	   
 	   // 1000
