@@ -64,12 +64,12 @@ need to select the file containing the main method and hit the play button.
 ## Plots
 ### First Part contains animated charts
 1. Pie Chart\
-This pie chart relies on the dataset [Desktop Operating System Market Share Worldwide] (https://gs.statcounter.com/os-market-share/desktop/worldwide). 
+This pie chart relies on the dataset [Desktop Operating System Market Share Worldwide](https://gs.statcounter.com/os-market-share/desktop/worldwide). 
 The data has been already downloaded and stored in `os_combined-ww-monthly-202306-202406.csv`. 
 - Controller: `MainVC`, View: `MainView`
 
 2. Bar Chart\
-This animated bar chart plots the annual revenues from [Texas Instruments] (https://www.macrotrends.net/stocks/charts/TXN/texas-instruments/revenue). 
+This animated bar chart plots the annual revenues from [Texas Instruments](https://www.macrotrends.net/stocks/charts/TXN/texas-instruments/revenue). 
 The downloaded data has been stored in `texas-instruments-revenues.csv`.
 - Controller: `BarVC`, View: `BarView`
 
